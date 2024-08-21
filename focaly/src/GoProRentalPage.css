@@ -1,0 +1,52 @@
+.image-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.image-scroll img {
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.image-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.product-recommendations {
+    margin-top: 20px;
+}
+
+.recommendations-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recommendations-list .card {
+    margin: 10px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature-item {
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+.feature-item h5 {
+    color: #0b7fc2;
+}
+
+.feature-item p {
+    color: #555;
+}
+
+

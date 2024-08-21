@@ -1,0 +1,28 @@
+/* navbar.css */
+
+.navbar-custom {
+    background-color: #000; 
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    color: #fff; /* Couleur du texte blanche */
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: #fff; /* Couleur du texte blanche pour le logo */
+  }
+  
+  .navbar-custom .form-control {
+    border-color: #fff; /* Couleur de la bordure des champs de recherche en blanc */
+  }
+  
+  .navbar-custom .btn-outline-light {
+    color: #fff; /* Couleur du texte du bouton en blanc */
+    border-color: #fff; /* Couleur de la bordure du bouton en blanc */
+  }
+  
+  .navbar-custom .btn-outline-light:hover {
+    background-color: #fff; /* Couleur de fond du bouton en blanc au survol */
+    color: #000; /* Couleur du texte du bouton au survol */
+  }
+  
